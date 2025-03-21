@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    padding: 40px 50px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .login-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .login-card h3 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .form-label {
+    font-weight: 500;
+    color: #555; 
+    margin-right: 150px;
+  }
+
+  .form-control {
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 14px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .form-control:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 8px rgba(37, 117, 252, 0.5);
+  }
+
+  .btn-primary {
+    background-color: #2575fc;
+    border-color: #2575fc;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: #1e66c1;
+    transform: translateY(-2px);
+  }
+
+  .forgot-password {
+    color: #2575fc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 15px;
+    display: inline-block;
+    transition: color 0.3s ease;
+  }
+
+  .forgot-password:hover {
+    color: #1e66c1;
+    text-decoration: underline;
+  }
